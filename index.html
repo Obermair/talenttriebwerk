@@ -104,55 +104,70 @@
                     </div>
                     <div class="col-lg-7 offset-xxl-1">
                         <!-- start contact form -->
-                        <form id="applicationForm" action="https://formcarry.com/s/u7shXR7B7p0" method="POST" class="contact-form-style-03" enctype="multipart/form-data">
+                        <form id="applicationForm" action="https://formcarry.com/s/u7shXR7B7p0" method="POST" class="contact-form-style-03 needs-validation" enctype="multipart/form-data">
                             <div class="row justify-content-center">
                                 <div class="col-md-6 xs-mb-30px">
                                     <label for="Name" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Name*</label>
                                     <div class="position-relative form-group mb-25px xs-mb-0">
                                         <span class="form-icon"><i class="bi bi-emoji-smile text-dark-gray"></i></span>
-                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Name" type="text" name="name" placeholder="Geben Sie Ihren Namen ein." />
+                                        <input required class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Name" type="text" name="name" placeholder="Geben Sie Ihren Namen ein." />
                                     </div>
                                 </div>
                                 <div class="col-md-6 xs-mb-30px">
                                     <label for="Telefonnummer" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Telefonnummer*</label>
                                     <div class="position-relative form-group mb-25px xs-mb-0">
                                         <span class="form-icon"><i class="bi bi-telephone text-dark-gray"></i></span>
-                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Telefonnummer" type="tel" name="phone" placeholder="Geben Sie Ihre Telefonnummer ein." />
+                                        <input required class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Telefonnummer" type="tel" name="phone" placeholder="Geben Sie Ihre Telefonnummer ein." />
                                     </div>
                                 </div>
                                 <div class="col-md-6 xs-mb-30px">
                                     <label for="Email Adresse" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Email Adresse*</label>
                                     <div class="position-relative form-group mb-25px xs-mb-0">
                                         <span class="form-icon"><i class="bi bi-envelope text-dark-gray"></i></span>
-                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Email Adresse" type="email" name="email" placeholder="Geben Sie Ihre Email-Adresse ein." />
+                                        <input required class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Email Adresse" type="email" name="email" placeholder="Geben Sie Ihre Email-Adresse ein." />
                                     </div>
                                 </div>
                                 <div class="col-md-6 xs-mb-30px">
                                     <label for="Position" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Position*</label>
                                     <div class="position-relative form-group mb-25px xs-mb-0">
                                         <span class="form-icon"><i class="bi bi-file-person text-dark-gray"></i></span>
-                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Position" type="text" name="position" placeholder="Was für eine Position suchen Sie?" />
+                                        <input required class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Position" type="text" name="position" placeholder="Was für eine Position suchen Sie?" />
                                     </div>
                                 </div>
                                 <div class="col-md-6 xs-mb-30px">
-                                    <label for="Branche" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Branche*</label>
+                                    <label for="Branche" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Branche</label>
                                     <div class="position-relative form-group mb-25px xs-mb-0">
                                         <span class="form-icon"><i class="bi bi-collection text-dark-gray"></i></span>
-                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="Branche" type="text" name="industry" placeholder="Welche Branche?" />
+                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="Branche" type="text" name="industry" placeholder="Welche Branche?" />
                                     </div>
                                 </div>
                                 <div class="col-md-6 xs-mb-30px">
                                     <label for="maxDistanz" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">max. Distanz zum Arbeitsplatz*</label>
                                     <div class="position-relative form-group mb-25px xs-mb-0">
                                         <span class="form-icon"><i class="bi bi-geo text-dark-gray"></i></span>
-                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="maxDistanz" type="text" name="distance" placeholder="max. Distanz?" />
+                                        <input required class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="maxDistanz" type="text" name="distance" placeholder="max. Distanz?" />
                                     </div>
                                 </div>
-                                <div class="col-md-12 xs-mb-30px">
+                                <div class="col-md-6 xs-mb-30px">
+                                    <label for="gehalt" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Gehaltswunsch</label>
+                                    <div class="position-relative form-group mb-25px xs-mb-0">
+                                        <span class="form-icon"><i class="bi bi-coin text-dark-gray"></i></span>
+                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="gehalt" type="text" name="gehalt" placeholder="Gehaltswunsch?" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 xs-mb-30px">
                                     <label for="Lebenslauf" class="form-label fw-700 text-dark-gray text-uppercase fs-13 ls-05px mb-0">Lebenslauf*</label>
                                     <div class="position-relative form-group mb-25px xs-mb-0">
                                         <span class="form-icon"><i class="bi bi-file-earmark-person text-dark-gray"></i></span>
-                                        <input class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="Lebenslauf" type="file" multiple name="Lebenslauf" placeholder="Lebenslauf hochladen" />
+                                        <input required class="ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="Lebenslauf" type="file" multiple name="Lebenslauf" placeholder="Lebenslauf hochladen" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 md-mb-25px">
+                                    <div class="position-relative terms-condition-box text-start mt-10px">
+                                        <label class="d-inline-block">
+                                            <input required type="checkbox" name="terms_condition" id="terms_condition" value="0" class="terms-condition check-box align-middle required">
+                                            <span class="box fs-15">Hiermit akzeptiere ich die <a href="agb_kandidaten.html">AGB</a> und <a href="datenschutz.html">Datenschutzerklärung</a>.</span>
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-md-7 col-sm-10">
@@ -160,7 +175,7 @@
                                 </div>
                                 <div class="col-xl-6 col-md-5 text-center text-md-end sm-mt-25px">
                                     <input class="alt-font btn btn-small btn-dark-gray btn-box-shadow btn-round-edge btn-rounded text-transform-none primary-font" type="submit" value="JETZT BEWERBEN"></input>
-                           
+            
                                 </div>
                                 <div class="col-12">
                                     <div class="form-results mt-20px d-none"></div>
@@ -199,7 +214,7 @@
                                     </div>
                                     <div class="process-content ps-30px last-paragraph-no-margin mb-30px">
                                         <span class="d-block fw-600 text-dark-gray mb-5px fs-18">Bewerbung</span>
-                                        <p class="w-90 lg-w-100">Lade in unserem Kontaktformular deine Bewerbung hoch.</p>
+                                        <p class="w-90 lg-w-100">Laden Sie in unserem Kontaktformular Ihre Bewerbung hoch</p>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +248,7 @@
                                     </div>
                                     <div class="process-content ps-30px last-paragraph-no-margin mb-30px">
                                         <span class="d-block fw-600 text-dark-gray mb-5px fs-18">Bewerbungsgespräch</span>
-                                        <p class="w-90 lg-w-100">Starte den Bewerbungsprozess bei deiner passenden Position</p>
+                                        <p class="w-90 lg-w-100">Starten Sie den Bewerbungsprozess bei Ihrer passenden Position</p>
                                     </div>
                                 </div>
                             </div>
@@ -250,7 +265,7 @@
                                     </div>
                                     <div class="process-content ps-30px last-paragraph-no-margin mb-30px">
                                         <span class="d-block fw-600 text-dark-gray mb-5px fs-18">Start</span>
-                                        <p class="w-90 lg-w-100">Starte in deinen neuen Job</p>
+                                        <p class="w-90 lg-w-100">Starten Sie Ihren neuen Job</p>
                                     </div>
                                 </div>
                             </div>
@@ -267,7 +282,7 @@
                                     </div>
                                     <div class="process-content ps-30px last-paragraph-no-margin mb-30px">
                                         <span class="d-block fw-600 text-dark-gray mb-5px fs-18">1. Prämie</span>
-                                        <p class="w-90 lg-w-100">Erhalte nach dem 1. Monat 50% von deinem Bruttomonatslohn.</p>
+                                        <p class="w-90 lg-w-100">Erhalten Sie nach dem 1. Monat 50% von Ihrem Bruttomonatslohn als Prämie</p>
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +298,7 @@
                                     </div>
                                     <div class="process-content ps-30px last-paragraph-no-margin">
                                         <span class="d-block fw-600 text-dark-gray mb-5px fs-18">2. Prämie</span>
-                                        <p class="w-90 lg-w-100">Erhalte nach dem 3. Monat die weiteren 50% von deinem Bruttomonatslohn.</p>
+                                        <p class="w-90 lg-w-100">Erhalten Sie nach dem 3. Monat die weiteren 50% Ihres Bruttomonatslohn</p>
                                     </div>
                                 </div>
                             </div>
